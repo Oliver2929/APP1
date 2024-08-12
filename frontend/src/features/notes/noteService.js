@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API_URL =
-  "Access-Control-Allow-Origin: https://support-deskapp.onrender.com/api/tickets/";
+const API_URL = "https://support-deskapp.onrender.com/api/tickets/";
 
 // Get ticket notes
 const getNotes = async (ticketId, token) => {
