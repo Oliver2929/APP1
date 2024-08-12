@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "https://support-deskapp.onrender.com/api/users/";
+const API_URL =
+  "Access-Control-Allow-Origin: https://support-deskapp.onrender.com/api/users/";
 
 // Register user
 const register = async (userData) => {
